@@ -27,9 +27,9 @@ strong{
 #og-trilogy{
     list-style-type: circle;
 }
-.movies-list-2{
-    padding-left: 50px;
+h3:nth-of-type(2)+ul{
+    padding-left: 90px;
 }
-.movies-list-3{
-    margin-top: 50px;
+h3:nth-of-type(3)+ul li:last-child{
+    margin-top: 70px;
 }
