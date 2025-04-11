@@ -1,28 +1,28 @@
-h1{
+body h1{
     text-align: center;
 }
-p{
+html p{
     font-family: serif;
 }
-#primer-parrafo{
+body #primer-parrafo{
     background-color: #cee;
 }
-em{
+#primer-parrafo em{
     color: #933;
 }
-a{
+a, article#contenedor a{
     outline: 1px solid #333;
 }
-p.fuente{
+html body p.fuente.parrafo{
     opacity: 100%;
 }
-p:not([id]) {
+p:not.([id]) {
     text-shadow: none;
 }
-p.fuente{
-    color: #000;
+html body p.fuente.parrafo{
+    color: #000 !important;
 }
 .complicado{
     font-weight: bold;
-    color: #C62;
+    color: #C62 !important;
 }
