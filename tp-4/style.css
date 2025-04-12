@@ -1,0 +1,54 @@
+@media (min-width: 401px){
+html body{
+    background-color: rgb(40,60,80);
+}
+}
+@media (max-width: 799px){
+body h1{
+    text-align: center;
+}
+}
+@media (orientacion: landscape){
+    body article{
+        max-width: 50ch;
+    }
+}
+@media (min-height: 200px){
+    body h1{
+        background-color: red;
+    }
+}
+@media print{
+    body p{
+        font-family: serif;
+    }
+}
+@media (prefers-color-scheme: light){
+    html body, html h1{
+        background-color: #DDD;
+        color:#111
+    }
+}
+@media (hover: none) and (pointer: coarse){
+    body a{
+        background-color: #212;
+        padding: 2px 5px ;
+    }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+    body img {
+        display: none;
+    }
+}
+@media (min-width: 200px) and (max-width: 400px){
+    body img{
+        height: 400px;
+        object-fit: cover;
+    }
+}
+@media (resolution>2dppx){
+    body article{
+         background-color: #667;
+
+    }
+}
