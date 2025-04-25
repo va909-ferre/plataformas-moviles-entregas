@@ -1,54 +1,72 @@
-@media (min-width: 401px){
-html body{
-    background-color: rgb(40,60,80);
+/* 1 */
+@media (min-width: 401px) {
+    body {
+        background-color: rgb(40, 60, 80);
+    }
 }
+
+/* 2 */
+@media (max-width: 799px) {
+    h1 {
+        text-align: center;
+    }
 }
-@media (max-width: 799px){
-body h1{
-    text-align: center;
-}
-}
-@media (orientacion: landscape){
-    body article{
+
+/* 3 */
+@media (orientation: landscape) {
+    article {
         max-width: 50ch;
     }
 }
-@media (min-height: 200px){
-    body h1{
-        background-color: red;
+
+/* 4 */
+@media (min-height: 200px) {
+    h1 {
+        background-color: #334;
     }
 }
-@media print{
-    body p{
+
+/* 5 */
+@media print {
+    p {
         font-family: serif;
     }
 }
-@media (prefers-color-scheme: light){
-    html body, html h1{
+
+/* 6 */
+@media (prefers-color-scheme: light) {
+    body, h1 {
         background-color: #DDD;
-        color:#111
+        color: #111;
     }
 }
-@media (hover: none) and (pointer: coarse){
-    body a{
+
+/* 7 */
+@media (hover: none) and (pointer: coarse) {
+    a {
         background-color: #212;
-        padding: 2px 5px ;
+        padding: 2px 5px;
     }
 }
-@media (min-width: 800px) and (max-width: 900px) {
-    body img {
+
+/* 8 */
+@media (min-width: 800px) and (max-width: 899px) {
+    img {
         display: none;
     }
 }
-@media (min-width: 200px) and (max-width: 400px){
-    body img{
+
+/* 9 */
+@media (min-width: 200px) and (max-width: 400px) {
+    img {
         height: 400px;
         object-fit: cover;
     }
 }
-@media (resolution>2dppx){
-    body article{
-         background-color: #667;
 
+/* 10 */
+@media (resolution > 2dppx) {
+    article {
+        background-color: #667;
     }
 }
