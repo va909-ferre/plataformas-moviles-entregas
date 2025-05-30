@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Versiones con Git</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Primero</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Segundo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+            </ul>
+          </li>
+        </ul>
+    </nav>
+
+      
+    <h1 class="text-center" id="scrollspyHeading1">Control de Versiones con Git</h1>
+
+    <p class="fs-5"><strong>Git</strong> es un sistema de control de versiones distribuido, ampliamente utilizado en el desarrollo de
+        software moderno. Fue creado para gestionar proyectos de forma rápida, eficiente y colaborativa.</p>
+
+        <div class="card" style="width: 18rem;">
+            <img src="git.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Git</h5>
+              <a href="https://git-scm.com" class="btn btn-primary">Pagina oficial</a>
+            </div>
+          </div>
+
+    <h2 id="scrollspyHeading2">Comandos más populares de Git</h2>
+    <ul class="list-group m-5 shadow">
+        <li><code>git init</code> - Inicializa un nuevo repositorio Git en el directorio actual. Este comando crea un repositorio vacío.</li>
+        <li><code>git clone [url]</code> - Clona un repositorio remoto en tu máquina local. Ejemplo: <code>git clone https://github.com/usuario/repositorio.git</code>.</li>
+        <li><code>git status</code> - Muestra el estado del repositorio: archivos modificados, nuevos archivos no rastreados, cambios preparados para el commit, etc.</li>
+        <li><code>git add [archivo]</code> - Agrega un archivo o cambios específicos al área de preparación (staging area) para el commit.</li>
+        <li><code>git commit -m "[mensaje]"</code> - Crea un commit con los archivos añadidos al área de preparación, agregando un mensaje descriptivo.</li>
+        <li><code>git push</code> - Sube los cambios locales al repositorio remoto. Generalmente se usa después de un commit para actualizar el repositorio remoto.</li>
+        <li><code>git pull</code> - Obtiene y combina los cambios del repositorio remoto al local. Equivalente a <code>git fetch</code> seguido de <code>git merge</code>.</li>
+        <li><code>git checkout [rama]</code> - Cambia a una rama específica del repositorio. Si la rama no existe, se puede crear con <code>git checkout -b [rama]</code>.</li>
+    </ul>
+
+    <h2  id="scrollspyHeading3">Comparación con otros sistemas</h2>
+    <table class="table table-warning table-striped-columns">
+        <thead>
+            <tr>
+                <th>Sistema</th>
+                <th>Tipo</th>
+                <th>Popularidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Git</td>
+                <td>Distribuido</td>
+                <td>Muy alta</td>
+            </tr>
+            <tr>
+                <td>SVN</td>
+                <td>Centralizado</td>
+                <td>Media</td>
+            </tr>
+            <tr>
+                <td>Mercurial</td>
+                <td>Distribuido</td>
+                <td>Baja</td>
+            </tr>
+            <tr>
+                <td>Perforce</td>
+                <td>Centralizado</td>
+                <td>Especializado (AAA, empresas)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2  id="scrollspyHeading4">¿Ya usaste Git?</h2>
+    <p>Completá el siguiente formulario para compartir tu experiencia:</p>
+
+    <form class="form">
+        <label for="nombre">Tu nombre:</label>
+        <input type="text" id="nombre" name="nombre" class="form-control">
+
+        <label for="experiencia">¿Qué usás más?</label><br>
+        <select id="experiencia" name="experiencia" class="form-select">
+            <option value="git">Git</option>
+            <option value="github">Git + GitHub</option>
+            <option value="otro">Otro sistema</option>
+            <option value="ninguno">Todavía no uso ninguno</option>
+        </select>
+
+        <input type="submit" value="Enviar" class="btn btn-outline-primary mt-2">
+    </form>
+
+    <p class="d-inline-flex gap-1 m-2">
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Creador
+        </a>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <a href="https://www.instagram.com/eliastf.06?igsh=bm43eHljMm00dHJm">Instagram del crador de esta web</a>
+        </div>
+      </div>
+<script src="bootstrap.bundle"></script>
+</body>
+</html>
